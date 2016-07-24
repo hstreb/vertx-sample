@@ -30,6 +30,10 @@ repositories {
 dependencies {
     compile 'io.vertx:vertx-web:3.3.2'
     compile 'io.vertx:vertx-auth-jwt:3.3.2'
+    compile 'io.vertx:vertx-dropwizard-metrics:3.3.2'
+    compile 'org.apache.logging.log4j:log4j-api:2.6.2'
+    compile 'org.apache.logging.log4j:log4j-core:2.6.2'
+    compile 'com.lmax:disruptor:3.3.4'
     testCompile 'junit:junit:4.12'
 }
 
